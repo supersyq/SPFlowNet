@@ -1,0 +1,40 @@
+nc2p: 2
+num_sp: 128
+down_scale: 4
+distance_margin: 100
+weight_const: 0.25
+
+dataset: KITTI #FlyingThings3DSubset KITTI
+data_root: /opt/data/common/3D_flow/
+num_points: 8192
+evaluate: True
+allow_less_points: False
+ckpt_dir: ./pretrained/
+pretrain: SPFlowNet_without_occ.pth #SPFlowNet_without_occ_v2.pth
+batch_size: 1
+resume: True
+
+data_process:
+    DEPTH_THRESHOLD: 35.
+    NO_CORR: True
+    IND_DIR: null
+
+exp_params:
+  gpu: "0"
+  multi_gpu: null
+  model_name: 'SPFlowNet'
+  workers: 32
+  evaluate: True
+  loss:
+    loss_type: 'unsup_l1'
+    w_data: [0.75]
+    w_smoothness: [0.25]
+    smoothness_loss_params:
+      w_knn: 3.
+      knn_loss_params:
+        k: 16
+        radius: 0.5
+        loss_norm: 1
+    chamfer_loss_params:
+      loss_norm: 2
+      k: 1

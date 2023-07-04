@@ -1,0 +1,33 @@
+dataset: KITTI_o_test
+data_root: /opt/data/common/3D_flow/
+num_points: 2048
+ckpt_dir: ./pretrained/ 
+pretrain: SPFlowNet_with_occ_v2.pth #SPFlowNet_with_occ_v2.pth
+batch_size: 1
+resume: True
+exp_params:
+  gpu: "1"
+  seed: 1
+  multi_gpu: null
+  model_name: 'SPFlowNet'
+  evaluate: True
+
+  loss:
+    loss_type: 'unsup_l1'
+    w_data: [0.75]
+    w_smoothness: [0.25]
+    smoothness_loss_params:
+      w_knn: 3.
+      knn_loss_params:
+        k: 16
+        radius: 0.25
+        loss_norm: 1
+    chamfer_loss_params:
+      loss_norm: 2
+      k: 1
+
+nc2p: 2
+num_sp: 30
+down_scale: 2
+distance_margin: 12
+weight_const: 0.2

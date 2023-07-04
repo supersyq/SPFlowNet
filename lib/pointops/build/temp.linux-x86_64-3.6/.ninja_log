@@ -1,0 +1,22 @@
+# ninja log v5
+9021	32538	1656317637529288000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/grouping/grouping_cuda.o	263fe43b5b53402d
+9120	34875	1656317638065503000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/grouping_int/grouping_int_cuda.o	6421e399c88efc41
+9375	36033	1656317637628318000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/interpolation/interpolation_cuda.o	fed6a1ba13d5819f
+9490	37310	1656317637989843000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/sampling/sampling_cuda.o	66c494768ba5df89
+8788	43733	1656317649572496000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/knnquerypoint/knnquerypoint_cuda_kernel.o	e4b6c49585e02fa
+8629	43808	1656317649639944000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/knnquerycluster/knnquerycluster_cuda_kernel.o	8ebb35dad750e9b7
+8493	44434	1656317650289135000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/ballquery/ballquery_cuda_kernel.o	890b27e8307e45e0
+9144	44630	1656317650483543000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/grouping_int/grouping_int_cuda_kernel.o	ce57d3f67723fd31
+8530	44727	1656317650528205000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/knnquery/knnquery_cuda_kernel.o	f9fc140eb7a77b03
+8954	44890	1656317650526738000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/assomatrix/assomatrix_cuda_kernel.o	25a0ed8d9b1657f7
+9668	45215	1656317650559006000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/featuredistribute/featuredistribute_cuda_kernel.o	1363ceeaf1009396
+8813	45763	1656317650810110000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/assofixp2c/assofixp2c_cuda_kernel.o	88cae7f53b629991
+8902	45906	1656317651552634000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/assofixp2c_weight/assofixp2c_weight_cuda_kernel.o	56fa6fe9de72c7cb
+8995	46135	1656317650820041000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/assomatrix_label/assomatrix_label_cuda_kernel.o	21214f3a1b546fd4
+9020	46361	1656317650607496000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/assomatrix_float/assomatrix_float_cuda_kernel.o	3481b5a49c7896ee
+9120	46764	1656317650594444000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/grouping/grouping_cuda_kernel.o	d7c4f5e1c9e752
+9421	46959	1656317651539523000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/interpolation/interpolation_cuda_kernel.o	717fd96ff37cb2aa
+9599	47052	1656317650967842000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/labelstat/labelstat_cuda_kernel.o	adecfcaf13e347af
+8707	47171	1656317651692481000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/knnqueryclustergt/knnqueryclustergt_cuda_kernel.o	cf7494d1d225e62b
+9508	47243	1656317652171954000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/sampling/sampling_cuda_kernel.o	c8a8394623c87a74
+8453	70300	1656317675666164000	/test/Flow-experiments/SuperFlow2/flot/models/libs/pointops/build/temp.linux-x86_64-3.6/src/pointops_api.o	bb81fdf515741f5d

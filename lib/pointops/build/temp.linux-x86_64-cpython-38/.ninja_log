@@ -1,0 +1,23 @@
+# ninja log v5
+3437	39628	1668566683	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda.o	84f32e5ee1b3b45
+3650	41346	1668566685	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda.o	c30cc871091bc9c6
+3373	41946	1668566686	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda.o	e5c5d3bc99a7116d
+3415	42833	1668566686	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/grouping_int/grouping_int_cuda.o	95768e42b4bfe453
+2966	57959	1668566699	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assofixp2c/assofixp2c_cuda_kernel.o	ddd6e0b469d1377
+3132	58770	1668566700	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assomatrix_label/assomatrix_label_cuda_kernel.o	a4f7e34d9cb48ad3
+3083	59699	1668566701	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assomatrix/assomatrix_cuda_kernel.o	30961ecbae97f64c
+3325	60073	1668566701	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/featuredistribute/featuredistribute_cuda_kernel.o	a9c0ea054a8fe14c
+3546	60481	1668566702	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnquerycluster/knnquerycluster_cuda_kernel.o	e9a3d06faa4a2cbd
+3013	60763	1668566702	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assofixp2c_weight/assofixp2c_weight_cuda_kernel.o	612646b5a357aa2c
+3109	60960	1668566702	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/assomatrix_float/assomatrix_float_cuda_kernel.o	cc6d79c5c6d079
+3494	61160	1668566702	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnquery/knnquery_cuda_kernel.o	5bda91e70c3d8112
+3415	61259	1668566703	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda_kernel.o	b8b06c208bdfade4
+3437	61440	1668566703	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/grouping_int/grouping_int_cuda_kernel.o	7bed8060b082f982
+3268	61526	1668566703	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/ballquery/ballquery_cuda_kernel.o	3651cee348a78def
+3649	61650	1668566703	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/labelstat/labelstat_cuda_kernel.o	276760c51d4674fa
+3449	61655	1668566703	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda_kernel.o	7540e454f8e8773e
+3652	62220	1668566704	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/threenn/three_nn_wrapper_kernel.o	366bbdd3feb6e8e3
+3594	62238	1668566704	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnqueryclustergt/knnqueryclustergt_cuda_kernel.o	ceb8307c3058b46f
+3626	62254	1668566704	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnquerypoint/knnquerypoint_cuda_kernel.o	30f479e857f1d61d
+3651	62456	1668566704	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda_kernel.o	589060f9c198f79e
+3650	70311	1668566714	/test/Flow-experiments/CVPR2023/SuperFlow2/lib/pointops/build/temp.linux-x86_64-cpython-38/src/pointops_api.o	7c00547ea71be0bc

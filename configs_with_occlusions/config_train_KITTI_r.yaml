@@ -1,0 +1,42 @@
+# Data args
+num_points: 2048
+dataset: KITTI_R
+data_root: /opt/data/common/3D_flow/
+
+exp_params:
+  gpu: "0"
+  multi_gpu: null #null "0,1"
+  model_name: SPFlowNet
+  seed: 1
+  batch_size: 4
+  epochs: 100
+  learning_rate: 0.001
+  pretrain: null
+  val_batch_size: 1
+  optimizer: Adam
+  evaluate: False
+
+  loss:
+    loss_iters_w: [0.8, 0.2, 0.4, 0.6]
+    loss_type: 'unsup_l1'
+    w_data: [0.75, 0.75, 0.75, 0.75]
+    w_smoothness: [0.25, 0.25, 0.25, 0.25] 
+    smoothness_loss_params:
+      w_knn: 3.
+      knn_loss_params:
+        k: 16
+        radius: 0.25
+        loss_norm: 1
+    chamfer_loss_params:
+      loss_norm: 2
+      k: 1
+
+  scheduler:
+     milestones: [40, 55, 70]
+     gamma: 0.7
+
+nc2p: 2
+num_sp: 30
+down_scale: 2
+distance_margin: 12
+weight_const: 0.15
