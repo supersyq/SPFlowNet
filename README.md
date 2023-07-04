@@ -37,7 +37,7 @@ Download and unzip the "Disparity", "Disparity Occlusions", "Disparity change", 
 . They will be upzipped into the same directory, `RAW_DATA_PATH`. Then run the following script for 3D reconstruction:
 
 ```bash
-python3 data_preprocess/process_flyingthings3d_subset.py --raw_data_path RAW_DATA_PATH --save_path SAVE_PATH/FlyingThings3D_subset_processed_35m --only_save_near_pts
+python data_preprocess/process_flyingthings3d_subset.py --raw_data_path RAW_DATA_PATH --save_path SAVE_PATH/FlyingThings3D_subset_processed_35m --only_save_near_pts
 ```
 This dataset is denoted FT3D<sub>s</sub> in our paper. 
 
