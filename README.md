@@ -44,17 +44,19 @@ This dataset is denoted FT3D<sub>s</sub> in our paper.
 **KITTI Scene Flow 2015**
 
 * KITTI<sub>s</sub> dataset
+  
 For fair comparison with previous methods, we adopt the preprocessing steps in [HPLFlowNet](https://github.com/laoreja/HPLFlowNet).
 
 Download and unzip [KITTI Scene Flow Evaluation 2015](http://www.cvlibs.net/download.php?file=data_scene_flow.zip) to directory `RAW_DATA_PATH`.
 Run the following script for 3D reconstruction:
 
 ```bash
-python3 data_preprocess/process_kitti.py RAW_DATA_PATH SAVE_PATH/KITTI_processed_occ_final
+python data_preprocess/process_kitti.py RAW_DATA_PATH SAVE_PATH/KITTI_processed_occ_final
 ```
 This dataset is denoted KITTI<sub>s</sub> in our paper.
 
 * KITTI<sub>o</sub> dataset
+  
 For fair comparison with previous methods, we adopt the preprocessing steps in [FlowNet3D](https://github.com/xingyul/flownet3d).
 
 Download and unzip [data](https://drive.google.com/open?id=1XBsF35wKY0rmaL7x7grD_evvKCAccbKi) processed by FlowNet3D to directory `SAVE_PATH`. This dataset is denoted KITTI<sub>o</sub> in our paper. 
